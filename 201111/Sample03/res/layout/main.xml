@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/browser"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<fragment
+		android:id="@+id/bookmark_fragment"
+		android:name="jp.co.c_lis.sample.nikkei_linux.nl201111.sample03.ui.BookmarkFragment"
+		android:layout_width="0dip"
+		android:layout_height="match_parent"
+		android:layout_weight="1" />
+	<fragment
+		android:id="@+id/browser_fragment"
+		android:name="jp.co.c_lis.sample.nikkei_linux.nl201111.sample03.ui.BrowserFragment"
+		android:layout_width="0dip"
+		android:layout_height="match_parent"
+		android:layout_weight="3" />
+</LinearLayout>
