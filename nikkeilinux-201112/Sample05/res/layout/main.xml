@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/root"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<fragment
+		android:name="jp.co.c_lis.sample.nikkei_linux.nl201112.sample05.ui.BrowserFragment"
+		android:layout_width="0dip"
+		android:layout_height="fill_parent"
+		android:layout_weight="1" />
+	<fragment
+		android:name="jp.co.c_lis.sample.nikkei_linux.nl201112.sample05.ui.BrowserFragment"
+		android:layout_width="0dip"
+		android:layout_height="fill_parent"
+		android:layout_weight="1" />
+</LinearLayout>
